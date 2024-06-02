@@ -2,11 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content = "IE = edge">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rohan's Portfolio</title>
-</html>
-<body>
-        HI SHOOSH I LOVE U DEWDE<br>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 2rem;
+        }
+        section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .experience, .projects, .awards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .experience div, .projects div, .awards div {
+            flex: 1;
+            padding: 1rem;
+            margin: 1rem;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+        }
+    </style>
 </head>
+<body>
+    <header>
+        <h1>Rohan's Portfolio</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2 class="section-title">Education</h2>
+            <p>Details about your education.</p>
+        </section>
+        <section>
+            <h2 class="section-title">Experience</h2>
+            <div class="experience">
+                <div>
+                    <h3>Job Title 1</h3>
+                    <p>Details about your job experience.</p>
+                </div>
+                <div>
+                    <h3>Job Title 2</h3>
+                    <p>Details about your job experience.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-title">Projects</h2>
+            <div class="projects">
+                <div>
+                    <h3>Project 1</h3>
+                    <p>Details about your project.</p>
+                </div>
+                <div>
+                    <h3>Project 2</h3>
+                    <p>Details about your project.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-title">Awards</h2>
+            <div class="awards">
+                <div>
+                    <h3>Award 1</h3>
+                    <p>Details about your award.</p>
+                </div>
+                <div>
+                    <h3>Award 2</h3>
+                    <p>Details about your award.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-title">Contact</h2>
+            <p>Details about how to contact you.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Rohan's Portfolio</p>
+    </footer>
+</body>
 </html>
